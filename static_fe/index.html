@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Reservation</title>
+    <style>
+        /* Style for the button */
+        .button {
+            background-color: #007bff; /* Blue */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Hover effect */
+        .button:hover {
+            background-color: #0056b3; /* Darker blue */
+        }
+
+        /* Style for displaying JSON data */
+        #passengerData {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <!-- Button for Passenger Reservation -->
+    <button class="button" id="passengerReservationButton">Passenger Reservation</button>
+
+    <!-- Container to display JSON data -->
+    <div id="passengerData"></div>
+
+    <!-- JavaScript to handle button click and fetch JSON data -->
+    <script src="script.js"></script>
+</body>
+</html>
